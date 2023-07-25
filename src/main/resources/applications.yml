@@ -1,0 +1,9 @@
+camunda.bpm.client:
+  base-url: http://serverUrl/engine-rest
+  worker-id: workerId
+  async-response-timeout: 1000
+  lock-duration: 2000
+  max-tasks: 20
+  basic-auth:
+    username: demo
+    password: demo
